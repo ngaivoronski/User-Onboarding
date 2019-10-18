@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto&display=swap');
+
+body {
+  background-color: rgb(161, 159, 159);
+  background-image: url("images/comp-background.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.onboardingForm {
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  width: 500px;
+  padding: 2em;
+  background-color: rgba(27, 27, 27, 0.9);
+  border-radius: 1em;
+}
+
+button {
+  margin: 1em auto;
+  background-color: yellow;
+  color: black;
+  border: 0px solid black;
+  height: 2.2em;
+  width: 7em;
+  font-family: 'Bree Serif', serif;
+  font-size: 1rem;
+  border-radius: .2em;
+}
+
+p {
+  margin: 1em 0;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bree Serif', serif;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  font-size: 2.5rem;
+}
+
+Input {
+  border: 1px solid white;
+  height: 2em;
+  border-radius: .2em;
+  margin: .3em 0;
+}
+
+.TOS-field {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.usersList {
+  width: 90%;
+  margin: 1em auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.userCard {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 11em;
+  width: 28%;
+  border-radius: .5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1em;
+}
+
+.userCard p {
+  color: black;
+  font-weight: 10;
+  font-size: 1rem;
+}
+
+.userCard h2 {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
