@@ -16,7 +16,7 @@ const OnboardingForm = ({values, touched, errors, status}) => {
   return (
     <>
     <div>
-      <h1>Onboarding Sig-up:</h1>
+      <h1>Onboarding Sign-up:</h1>
       <Form className="onboardingForm">
         <h2>Please enter your onboarding information:</h2>
         <Field type="text" name="name" placeholder="Name"/>
